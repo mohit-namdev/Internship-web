@@ -123,7 +123,7 @@
                     <h3 style="font-family: cursive;">~Today's Tasks~</h3>
                 </label>
                 <input type="text" class="form_input" id="todo" name="to-do" size="30" autocomplete="off" required>
-                <button class="button"><span>Submit</span></button>
+                <button class="button" type="submit"><span>Submit</span></button>
             </div>
         </form>
         <div>
@@ -138,7 +138,7 @@
             let toDoListArray = [];
             // ui variables
             const form = document.querySelector(".form");
-            const input = form.querySelector(".form__input");
+            const input = form.querySelector(".form_input");
             const ul = document.querySelector(".toDoList");
 
             // event listeners
